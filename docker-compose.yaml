@@ -1,6 +1,5 @@
 version: "3.9"
 services:
   p2pclient:
-    image:
-      build: .
+    build: .
     restart: always
